@@ -1,4 +1,4 @@
 SELECT *
 FROM Enrolments
-FULL OUTER JOIN Students
+RIGHT JOIN Students
 ON Enrolments.StudentID=Students.StudentID;
